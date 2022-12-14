@@ -1,0 +1,49 @@
+.header {
+background-color: #1F2937;
+display: flex;
+
+}
+
+.leftnav {
+display: flex;
+justify-content: space-around;
+padding-left: 30px;
+}
+
+.rightnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo {
+font-weight: 24px;
+color: #F9FAF8;
+align-self: center;
+}
+
+.links ul {
+    display: flex;
+    gap: 8px;
+
+}
+
+.links li {
+    display:flex;
+    
+
+}
+
+.links a {
+    text-decoration: none;
+    color: #F9FAF8;
+    margin: auto;
+
+}
+
+
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+}
