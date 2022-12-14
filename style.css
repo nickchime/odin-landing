@@ -57,7 +57,6 @@ font-weight: bolder;
 
 .image {
     background-color: lightgray;
-    
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -115,5 +114,83 @@ font-weight: bolder;
     border-style: solid;
     border-color: #3882F6;
     border-radius: 10%;
+}
+
+.mid2 {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid2 .quote {
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
     
+}
+
+.mid2 .author {
+    font-weight: bolder;
+    width: 700px;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+}
+
+.mid3 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.mid3 .innerbox {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 800px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mid3 .innerbox .title3 {
+    color: #E5E7EB;
+    font-weight: bold;
+
+}
+
+.mid3 .innerbox .subtitle2 {
+    color: #E5E7EB;
+}
+
+.mid3 .innerbox .button2 {
+    align-self: center;
+
+}
+
+.mid3 .innerbox .button2 button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .Copyright {
+    color: #F9FAF8;
+    padding: 20px;
+
 }
