@@ -1,49 +1,89 @@
 .header {
 background-color: #1F2937;
 display: flex;
+justify-content: center;
+gap: 100px;
+padding-bottom: 100px;
+
+
 
 }
 
 .leftnav {
 display: flex;
-justify-content: space-around;
-padding-left: 30px;
+justify-content: space-between;
+
+
 }
 
 .rightnav {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 .logo {
 font-weight: 24px;
 color: #F9FAF8;
 align-self: center;
+padding-top: 16px;
+font-weight: bolder;
 }
 
 .links ul {
     display: flex;
-    gap: 8px;
-
+    gap: 16px;
+    justify-content: end;
 }
 
 .links li {
     display:flex;
-    
-
+   
 }
 
 .links a {
     text-decoration: none;
     color: #F9FAF8;
     margin: auto;
-
 }
-
-
 
 .awesome {
     display: flex;
     flex-direction: column;
+    width: 400px;
+    padding-top: 100px;
+}
+
+.image {
+    background-color: lightgray;
+    
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 196px;
+    text-align: center;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button1 button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: none;
 }
